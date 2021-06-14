@@ -1,0 +1,228 @@
+.heading1-light{
+    color:purple;
+}
+.heading2-light{
+    color:rgba(128, 0, 128, 0.76);
+}
+.heading-dark{
+    color: white;
+}
+.back-dark{
+    background-color:rgb(80, 78, 78);
+    color: white;
+}
+.back-light{
+    background-color: white;
+}
+.nav-bar{
+    width: 100%;
+    position: relative;  
+    margin: 0;
+    padding: 0;
+    background-color:rgba(255, 255, 255, 0.938);
+}
+.nav-bar li{  
+    
+    list-style: none;
+    display: block;
+    padding: 25px 22px;
+    margin: 0;
+    float: left;
+    
+}
+
+#headtext{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+nav-right{
+    position: absolute;
+    right:0;
+   }
+.switch{
+    position: relative;
+    padding: 0%;
+    margin: 0;
+}
+#threelinetext{
+    border: 0;
+    color: purple;
+    background-color: white;
+}
+
+#switchthree{
+    border: 0;
+    color: purple;
+}
+.light{
+    color:white;
+    background-color: purple;
+    
+}
+#skills{
+
+    overflow-x:scroll;
+    padding: 0;
+    white-space: nowrap;
+    
+}
+/* width */
+#skills::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+  
+#skills li{
+    display: inline-block;
+    list-style: none;
+    position:relative;
+    margin-right: 12px;
+}
+.skillsbox{
+   
+    display: inline-block;
+    padding-top:78px;
+    height: 200px;
+    width: 300px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow:-1px 2px rgba(0, 0, 0, 0.562);
+    text-transform: uppercase;
+    transition: 1s; 
+    border-radius: 20px;
+}
+.skilltext{
+    display:none;
+    position: absolute;
+    bottom: 70px;
+    font-size: 20px;
+    color: white;
+    left:33%;
+    transition: 5s;
+}
+.progress{
+    width: 250px;
+    position:relative;
+    margin-top: 25px;
+    margin-left: -70px;
+}
+.enlarge{
+    border-radius: 20px;
+    width:300px;
+    height:300px;
+    display: inline-block;
+    padding-top:78px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow:-1px 2px rgba(0, 0, 0, 0.562);
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+@media screen and (max-width: 100991px){
+    #threeline{
+        display: none;
+    }
+    #showing{
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    #threeline{
+        display: none;
+    }
+   
+    #showing{
+        display: none;
+    }
+    #bottomNav{
+        display: none;
+    }
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    
+    #bottomNav{
+        display: none;
+    }
+    }
+    @media screen and (max-width: 575px) {
+        #headimg{
+            display: none;
+            visibility: hidden;
+        }
+        #showing{
+            display: block;
+            width: 50%;
+            border:3px solid rgba(128, 0, 128, 0.774);
+            border-radius: 50%;
+            padding:5px;
+            margin: 15px;
+            margin-bottom:23px;
+           
+        }
+        .enlarge{
+            width:300px;
+            height:300px;
+            display: inline-block;
+            padding-top:78px;
+            font-size: 25px;
+            font-weight: bolder;
+            text-shadow:-1px 2px rgba(0, 0, 0, 0.562);
+            text-transform: uppercase;
+            transition: 1s;
+        }
+        #headtext{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    @media screen and (max-width: 544px) {
+       
+        #threeline{
+            display: block;
+        }
+    /* start of phone styles */
+    .nav-bar{
+        position: fixed;
+        display: inline;
+        bottom: 0;
+        
+        color: white;
+        box-shadow: 0px -3px #888888;
+    }
+    .nav-pc{
+        display: none;
+        
+    }
+    .error{
+        display: none;
+        visibility:hidden;
+        padding: 0px 0px;
+        margin: 0;
+    }
+    #bottomNav{
+        position: absolute;
+        bottom:77px;
+        z-index: -10;
+        border-top-left-radius: 20px;
+        border-top-right-radius:20px ;
+        
+    }
+    #bottomNav .row{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #bottomNav .bottomrowup{
+        padding-top: 50px;
+       
+    }
+    #bottomNav .bottomrowdown{
+        padding-bottom: 40px;
+       
+    }
+  
+    }
+
