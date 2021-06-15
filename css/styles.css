@@ -1,3 +1,8 @@
+/* width */
+::-webkit-scrollbar {
+display: none;
+  }
+
 .heading1-light{
     color:purple;
 }
@@ -20,7 +25,7 @@
     position: relative;  
     margin: 0;
     padding: 0;
-    background-color:rgba(255, 255, 255, 0.938);
+    background-color:rgba(255, 255, 255);
 }
 .nav-bar li{  
     
@@ -119,7 +124,35 @@ nav-right{
     text-transform: uppercase;
     transition: 1s;
 }
+.projectcont{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0px 0px 15px purple;
 
+}
+.projectcont li{
+list-style: none;
+text-decoration: none;
+padding: 5px;
+
+}
+.projectcont li a span{
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.projectcont li a span img{
+    border-radius: 50%;
+    border: 1px dashed purple;
+    padding: 2px;
+
+}
+.projectcont li a{
+    color:#333;
+    text-decoration: none;
+    }
 @media screen and (max-width: 100991px){
     #threeline{
         display: none;
@@ -127,6 +160,7 @@ nav-right{
     #showing{
         display: none;
     }
+
 }
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
@@ -183,7 +217,7 @@ nav-right{
     @media screen and (max-width: 544px) {
        
         body{
-            margin-bottom: 78px;
+            margin-bottom: 100px;
         }
         #threeline{
             display: block;
@@ -208,9 +242,9 @@ nav-right{
         margin: 0;
     }
     #bottomNav{
-        position: absolute;
+        position:fixed;
         bottom:77px;
-        z-index: -10;
+        z-index: 1;
         border-top-left-radius: 20px;
         border-top-right-radius:20px ;
         

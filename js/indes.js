@@ -17,6 +17,7 @@ if(lightcheck==0){
     //day them  nav body start
     $("body").css("background-color","white");
     $("#nav").css("background-color","white");
+    $(".proa").css("color","#333");
     $("body").css("color","#313131");
     $(".hastag").css("color","black");
     $("#threelinetext").css("background-color","white");
@@ -30,6 +31,7 @@ if(lightcheck==0){
     //night theme
     $("body").css("background-color","#313131");
     $("body").css("color","#FFFFFF");
+    $(".proa").css("color","white");
     $("#nav").css("background-color","#242124");
     $(".hastag").css("color","white");
     $("#threelinetext").css("background-color","#242124");
