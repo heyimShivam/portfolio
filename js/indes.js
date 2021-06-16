@@ -13,7 +13,7 @@ $("#switchimg").attr("src","images/icons/sun.png");
 var lightcheck=1;
 $("#sun").click(()=>{
 if(lightcheck==0){
-    
+    $(".footericontext").css("color","black");
     //day them  nav body start
     $("body").css("background-color","white");
     $("#nav").css("background-color","white");
@@ -32,6 +32,7 @@ if(lightcheck==0){
     $("body").css("background-color","#313131");
     $("body").css("color","#FFFFFF");
     $(".proa").css("color","white");
+    $(".footericontext").css("color","white");
     $("#nav").css("background-color","#242124");
     $(".hastag").css("color","white");
     $("#threelinetext").css("background-color","#242124");

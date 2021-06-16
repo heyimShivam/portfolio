@@ -153,6 +153,85 @@ padding: 5px;
     color:#333;
     text-decoration: none;
     }
+.endbar{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+.limy{
+    list-style: none;
+    padding: 5px;
+    margin: 15px;
+    position: relative;
+}
+.footicon{
+    display: block;
+    padding: 15px;
+    font-size: 36dp;
+    border-radius: 50%;
+    background-color: black;
+    margin: 8px;
+    color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+}
+.footicon:hover{
+    color: purple;
+    transition: 0.3s;
+}
+.vl {
+    border-left: 1px solid white;
+    border-radius: 25px;
+    height: auto;
+  }
+.footericontext{
+    color: black;
+   position: absolute;
+   padding-top:24px;
+   padding-left:10px ;
+}
+.footericontext:hover{
+    text-shadow:0px 0px 9px #333;
+    transition: 0.3s;
+}
+#sociallinks{
+    padding-left: 16px;
+    border-radius: 25px;
+    margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+    list-style: none;
+    float: right;
+
+}
+.form-control:focus{
+    border-color: purple;  box-shadow: 0px 0px 8px purple; -webkit-box-shadow: 0px 0px 8px purple;
+} 
+.has-error .form-control:focus{box-shadow: 0px 0px 8px purple; -webkit-box-shadow: 0px 0px 8px purple;}
+.btn:focus{
+    box-shadow: 0px 0px 8px purple;
+    border: purple;
+}
+.btn{
+    box-shadow: 0px 0px 0px purple;
+    border: purple;
+}
+#content{
+    text-align:center;
+}
+#sociallinks a{
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+
+
+}
+#sociallinks a img{
+    width: 70%;
+    box-shadow:0px 0px 5px rgb(14, 13, 13);
+    border-radius:50% ;
+}
 @media screen and (max-width: 100991px){
     #threeline{
         display: none;
@@ -213,6 +292,16 @@ padding: 5px;
             margin-left: auto;
             margin-right: auto;
         }
+        #sociallinks a{
+            display: flex;
+            justify-content: center;
+            margin-left: -13px;
+        }
+        #sociallinks a img{
+            width: 45%;
+            margin-bottom: 20px;
+            
+        }
     }
     @media screen and (max-width: 544px) {
        
@@ -261,6 +350,6 @@ padding: 5px;
         padding-bottom: 40px;
        
     }
-  
+
     }
 
